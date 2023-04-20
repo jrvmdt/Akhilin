@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "montserrat";
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #b8926a;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header .logo {
+  width: 63px;
+  border-radius: 40px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 50px;
+}
+a.active,
+a:hover {
+  text-decoration: none !important;
+  background: #f5f0e1;
+  transition: 0.5s;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  text-decoration: none !important;
+}
+nav ul li a {
+  color: #8b6a4f;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #f5f0e1;
+  transition: 0.5s;
+}
+.btnlogin input {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f5f0e1;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #8b6a4f;
+  font-size: 20px;
+  position: relative;
+  top: 23px;
+}
+.btnlogin:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.btnlogin:active {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+.caro {
+  width: 100%;
+  height: 730px;
+  background: #252525;
+}
+.carousel-inner img {
+  width: 1750px;
+  height: 730px;
+  padding-left: -36px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  background: transparent !important;
+}
+/* .carousel-inner {
+  background-color: #8b6a4f;
+} */
